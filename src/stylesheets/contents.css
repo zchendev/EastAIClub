@@ -1,0 +1,151 @@
+p.content {
+
+	font-family: 'Segoe UI', sans-serif;
+    font-weight: 100;
+	color: black;
+	font-size: 2.5vh;
+
+}
+
+a.content {
+
+	margin-bottom: 2vh;
+
+	font-family: 'Segoe UI', sans-serif;
+    font-weight: 100;
+	font-size: 3vh;
+
+}
+
+div.description-container {
+
+	padding-left: 5%;
+	padding-right: 5%;
+
+}
+
+div.description-container.overflow {
+
+	height: 60vh;
+
+	padding-left: 5%;
+	padding-right: 5%;
+
+	overflow-y: auto;
+
+}
+
+h2 {
+
+	margin-bottom: 2vh;
+
+	color: black;
+	font-family: 'Segoe UI', sans-serif;
+    font-weight: 100;
+	font-size: 3.75vh;
+
+}
+
+ul {
+
+    list-style: none;
+
+}
+
+li {
+
+	margin-bottom: 2vh;
+
+	color: black;
+	font-family: 'Segoe UI', sans-serif;
+    font-weight: 100;
+	font-size: 3vh;
+
+}
+
+h3 {
+
+	margin: 1vh;
+
+	color: rgb(63, 63, 63);
+	font-family: 'Segoe UI', sans-serif;
+    font-weight: 100;
+	font-size: 2.5vh;
+
+}
+
+h4 {
+
+	margin: 1vh;
+
+	color: rgb(63, 63, 63);
+	font-family: 'Segoe UI', sans-serif;
+    font-weight: 100;
+	font-size: 2vh;
+
+}
+
+img.flyer {
+
+	width: 100%;
+
+}
+
+img.image {
+
+	width: 50%;
+
+}
+
+div.separator {
+
+	color: rgb(191, 191, 191);
+	display: flex;
+	align-items: center;
+
+	font-family: 'Segoe UI', sans-serif;
+    font-weight: 100;
+	text-align: center;
+
+}
+
+div.separator::before,
+div.separator::after {
+
+	content: '';
+	flex: 1;
+	border-bottom: 1px solid rgb(191, 191, 191);
+
+}
+
+div.separator:not(:empty)::before {
+
+	margin-right: .25em;
+
+}
+
+div.separator:not(:empty)::after {
+
+	margin-left: .25em;
+
+}
+
+h3.member-name {
+
+	color: rgb(0, 0, 0);
+	font-size: 2.5vh;
+
+}
+
+h4.member-role {
+
+	color: rgb(0, 0, 0);
+	font-size: 2vh;
+
+}
+
+h4.member-bio {
+
+	font-size: 2vh;
+
+}

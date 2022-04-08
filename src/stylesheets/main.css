@@ -1,0 +1,127 @@
+* {
+
+	margin: 0;
+	padding: 0;
+
+}
+
+h1.content-title {
+
+	color: black;
+	font-family: 'Segoe UI', sans-serif;
+	font-size: 3vh;
+	font-weight: 300;
+	text-align: center;
+
+}
+
+div.content-section {
+
+	float: left;
+
+	padding-left: 5%;
+	padding-right: 5%;
+
+	width: 40%;
+	height: 40vh;
+
+	overflow-y: auto;
+
+}
+
+div.spacer {
+
+	width: 100%;
+	height: 2.5vh;
+
+}
+
+div#navigation {
+	width: 12.5vw;
+	height: 92.5vh;
+	float: left;
+	background-color: rgb(63, 63, 63);
+}
+
+div#title-container {
+
+	padding: 2vh;
+
+}
+
+div#contents {
+
+	float: left;
+
+	margin: 0;
+
+	padding-top: 5vh;
+	padding-left: 5vw;
+	padding-right: 5vw;
+	padding-bottom: 5vh;
+
+	width: 75vw;
+	height: 82.5vh;
+	background-size: cover;
+	background-repeat: no-repeat;
+	background-position: center;
+
+	overflow-x: hidden;
+	overflow-y: auto;
+
+}
+
+div#title {
+	
+	width: 100vw;
+	height: 7.5vh;
+
+	background-color: rgb(63, 63, 191);
+
+	font-family: 'segoe ui', sans-serif;
+	font-weight: 100;
+	text-align: center;
+
+	display: flex;
+	justify-content: center;
+	align-items: center;
+
+}
+
+h1#title-text {
+
+	font-size: 3.75vh;
+	color: white;
+	font-weight: 100;
+
+}
+
+div.highlighter {
+
+	padding: 2.5vh;
+	margin: 2.5vh;
+
+	background-color: rgba(0, 0, 0, 0.125);
+
+}
+
+img.flyer {
+
+	margin-top: 5vh;
+	margin-bottom: 5vh;
+	height: 60vh;
+	object-fit: contain;
+
+}
+
+div.iframe-wrapper {
+	width: 100%;
+	height: 100%;
+	text-align: center;
+
+}
+
+iframe {
+	width: 60vw;
+	height: 60vh;
+}
