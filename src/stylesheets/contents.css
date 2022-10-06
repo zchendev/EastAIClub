@@ -87,6 +87,7 @@ h4 {
 
 img.flyer {
 
+	float: left;
 	width: 100%;
 
 }
